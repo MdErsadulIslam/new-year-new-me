@@ -55,7 +55,6 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-
 }
 .failure-detail {
   color: var(--dark-02, #444343);
@@ -65,43 +64,71 @@ h1 {
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
-.failure-right{
-    padding-left: 110px;
-    padding-right: 50px;
+.failure-right {
+  padding-left: 110px;
+  padding-right: 50px;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------
  failure section end 
 -------------------------------------------------------------------------------------------------------------------------*/
-.icon{
-    display: flex;
-    justify-content: space-between;
+.icon {
+  display: flex;
+  justify-content: space-between;
 }
-.plans-title{
-    text-align: center;
-    padding-bottom: 30px;
+.plans-title {
+  text-align: center;
+  padding-bottom: 30px;
 }
-.container{
-    max-width: 1140px;
-    margin: 0 auto;
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-.callnow{
-    background-image: linear-gradient(90deg, #F15B22 0%, rgba(2, 2, 2, 0) 100%), url(./images/watch.png);
-    height: 300px;
+.callnow {
+  background-image: linear-gradient(90deg, #f15b22 0%, rgba(2, 2, 2, 0) 100%),
+    url(./images/watch.png);
+  height: 300px;
 }
-.callnow-text h2{
-    color: white;
-    font-size: 30px;
+.callnow-text h2 {
+  color: white;
+  font-size: 30px;
 }
-.callnow-text{
-    padding: 60px;
+.callnow-text {
+  padding: 60px;
 }
-.callnow-btn{
-    padding: 20px 25px;
-    background-color: white;
-    color: #f15b22;
-    font-weight: 700;
-    border: none;
-    border-radius: 5px;
-    margin-top: 16px;
+.callnow-btn {
+  padding: 20px 25px;
+  background-color: white;
+  color: #f15b22;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  margin-top: 16px;
+}
+footer {
+  background-color: #151414;
+  color: white;
+}
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  width: 500px;
+  justify-items: end;
+}
+.color-white {
+  color: white;
+}
+.footer-input {
+  width: 325px;
+  height: 64px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding-left: 20px;
+  display: block;
+}
+.subscribe{
+    margin: 43px 0;
 }
