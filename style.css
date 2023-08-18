@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Work Sans;
 }
 /*-----------------------------------------------------------------------------------------------------------------------
  banner section start 
@@ -83,4 +84,24 @@ h1 {
 .container{
     max-width: 1140px;
     margin: 0 auto;
+}
+.callnow{
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(2, 2, 2, 0) 100%), url(./images/watch.png);
+    height: 300px;
+}
+.callnow-text h2{
+    color: white;
+    font-size: 30px;
+}
+.callnow-text{
+    padding: 60px;
+}
+.callnow-btn{
+    padding: 20px 25px;
+    background-color: white;
+    color: #f15b22;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    margin-top: 16px;
 }
