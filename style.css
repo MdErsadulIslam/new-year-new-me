@@ -8,7 +8,6 @@ body {
  banner section start 
 -----------------------------------------------------------------------------------------------------------------------*/
 .header {
-  background-image: url(./images/banner/banner1.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -19,17 +18,14 @@ body {
   padding-left: 1000px;
   text-align: right;
 }
+.header-one{
+    background-image: url(./images/banner/banner1.png);
+}
 .header-two {
   background-image: url(./images/banner/banner2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  padding-right: 200px;
-  padding-left: 1000px;
-  text-align: right;
+}
+.header-three {
+  background-image: url(./images/banner/banner3.png);
 }
 h1 {
   margin-top: 0;
@@ -39,14 +35,22 @@ h1 {
   color: var(--dark-02, #444343);
   font-size: 18px;
 }
-.btn-primary {
-  padding: 20px 25px;
+.btn{
+    padding: 20px 25px;
   background-color: #f15b22;
   color: aliceblue;
   font-weight: 700;
   border: none;
   border-radius: 5px;
   margin-top: 16px;
+}
+.btn-primary {
+    background-color: #f15b22;
+    color: aliceblue;
+}
+.btn-primary-three{
+    background-color: white;
+    color: #005FAC;
 }
 /*-------------------------------------------------------------------------------------------------------------------------
  banner section end  
@@ -97,10 +101,16 @@ h1 {
   margin: 0 auto;
 }
 .callnow {
-  background-image: linear-gradient(90deg, #f15b22 0%, rgba(2, 2, 2, 0) 100%),
-    url(./images/watch.png);
   height: 300px;
   margin: 130px auto;
+}
+.bg-one{
+    background-image: linear-gradient(90deg, #f15b22 0%, rgba(2, 2, 2, 0) 100%),
+    url(./images/watch.png);
+}
+.bg-three{
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(2, 2, 2, 0) 100%),
+    url(./images/watch.png);
 }
 .callnow-text h2 {
   color: white;
@@ -110,13 +120,12 @@ h1 {
   padding: 60px;
 }
 .callnow-btn {
-  padding: 20px 25px;
   background-color: white;
   color: #f15b22;
-  font-weight: 700;
-  border: none;
-  border-radius: 5px;
-  margin-top: 16px;
+}
+.callnow-btn-3 {
+  background-color: #005FAC;
+  color: white;
 }
 footer {
   background-color: #151414;
